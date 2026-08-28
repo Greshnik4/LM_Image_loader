@@ -1,0 +1,5 @@
+Nothing needs to be added to .gitignore since the changes only include source files (.py) and documentation (.md).node_modules/
+.next/
+dist/
+build/
+*.log
