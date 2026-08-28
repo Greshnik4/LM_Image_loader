@@ -1,5 +1,30 @@
-Nothing needs to be added to .gitignore since the changes only include source files (.py) and documentation (.md).node_modules/
-.next/
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Build artifacts
 dist/
 build/
-*.log
+target/
+```

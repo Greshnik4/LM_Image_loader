@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "image-loader": {
+      "command": "python",
+      "args": ["/workspace/image_loader.py"]
+    }
+  }
+}
